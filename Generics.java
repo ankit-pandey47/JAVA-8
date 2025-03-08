@@ -48,5 +48,13 @@ public class Generics {
         l1.add(45);
         // l1.add("Ankit"); // it give errror now
 
+        // NOTE : Object classs is superclass of all other class directly or indirectly
+        // so creating a variable of Objet type means it can store element of any data
+        // type
+        Object x = 12;
+        System.out.println(x);
+        x = "ANKIt";
+        System.out.println(x);
+
     }
 }
